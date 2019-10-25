@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Fragmen
 
     @Override
     public void onInput1Sent(CharSequence input) {
-        //ei varmaan toimisi tällä ratkaisulla mitä netistä etsin, että on molemmille
+        //ei varmaan toimisi tällä ratkaisulla
+        //mitä netistä etsin, että on molemmille
         //napeille täällä fragment listeneri(?)
 
         if(isNetworkAvailable()) {
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Fragmen
 
     @Override
     public void onInput2Sent(CharSequence input) {
+        //täällä varmaan pitäisi kutsua databasea jotenkin
 
     }
 
